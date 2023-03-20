@@ -21,10 +21,8 @@ public class AppController {
 
 
     @PostMapping("api/auth/signup")
-    //@ExceptionHandler(ValidationException.class)
     public ResponseEntity<UserDetailsResponse> post1(//@Validated
                                                          @RequestBody UserDetails userDetails)
-            //throws ValidationException
     {
 
 
