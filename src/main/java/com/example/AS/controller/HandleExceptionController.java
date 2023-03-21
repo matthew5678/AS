@@ -25,7 +25,6 @@ public class HandleExceptionController {
 
 
         cvem.setError("Bad Request");
-//        cvem.setError(validationException.getCause().toString());
 
         return new ResponseEntity<>(cvem, HttpStatus.BAD_REQUEST);
     }
