@@ -20,6 +20,7 @@ import java.util.regex.Pattern;
 public class AppController {
 
 
+    // mocking comment
     @PostMapping("api/auth/signup")
     public ResponseEntity<UserDetailsResponse> post1(//@Validated
                                                          @RequestBody UserDetails userDetails)
